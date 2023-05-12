@@ -1,0 +1,8 @@
+.cardText {
+  width: 100%;
+  position: absolute;
+}
+
+.text {
+  user-select: none;
+}

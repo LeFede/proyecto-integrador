@@ -1,0 +1,65 @@
+@font-face {
+  font-family: Font;
+  src: url('/card-name.ttf')
+}
+
+.Card {
+  color: black;
+  font-family: Font;
+  box-shadow: 0 0 5px 5px rgba(0,0,0,1);
+  aspect-ratio: 9/13;
+  border-radius: 5px;
+  transition: all .1s linear;
+
+  transform-style: preserve-3d;
+}
+
+
+.pic {
+  pointer-events: none;
+  position: absolute;
+  inset: 18% 11%;
+  width: 78%;
+  height: 53%;
+  z-index: -1;  
+}
+
+.card {
+  position: absolute;
+  object-fit: fill;
+  pointer-events: none;
+}
+
+.back {
+  transform: translateZ(-.01px);
+  position: absolute;
+  /* object-fit: fill; */
+  pointer-events: none;
+}
+
+.wrapper {
+  perspective: 1000px;
+  transform-style: preserve-3d;
+  min-width: 200px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.button {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.detail {
+  position: relative;
+}
+
+.single {
+  min-height: 79vh;
+  aspect-ratio: 9/13;
+}
+
+.outer {
+  position: relative;
+}

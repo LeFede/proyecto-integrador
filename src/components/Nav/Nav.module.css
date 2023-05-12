@@ -1,0 +1,21 @@
+.Nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: tomato;
+  position: fixed;
+  width: 100%;
+}
+
+.active {
+  border: 1px solid white;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  transition: all .15s ease
+}
+
+a:hover {
+  filter: drop-shadow(1px 1px 1px black);
+}

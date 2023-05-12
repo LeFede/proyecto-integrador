@@ -1,0 +1,41 @@
+.Character {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0,0,0,.7);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  transition: all .4s ease;
+  opacity: 0;
+  overflow: hidden;
+}
+
+.show {
+  opacity: 1;
+}
+
+.hide {
+  opacity: 1;
+}
+
+.info { 
+
+}
+
+.half {
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.button {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  font-size: 3rem;
+  margin: 30px;
+}

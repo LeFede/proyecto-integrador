@@ -1,0 +1,17 @@
+.Form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  width: 20%;
+  margin: auto;
+}
+
+.Form label {
+  margin-top: 1rem;
+}
+
+
+.Form input[type="submit"] {
+  margin-top: 1rem;
+}
