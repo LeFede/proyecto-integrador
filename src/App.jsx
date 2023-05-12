@@ -9,7 +9,7 @@ import { controlPressed, controlUp } from "./events"
 function App() {
   
   const navigate = useNavigate()
-  const [access, setAccess] = useState(true)
+  const [access, setAccess] = useState(false)
   const EMAIL = "fede@gmail.com"
   const PASSWORD = "123fF!"
 
